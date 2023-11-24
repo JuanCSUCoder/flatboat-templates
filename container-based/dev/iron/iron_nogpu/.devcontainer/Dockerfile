@@ -1,3 +1,3 @@
-FROM docker.io/juancsucoder/roboten_iron:latest
+FROM juancsucoder/robotim_ws_iron:latest
 
 CMD ["/bin/bash"]
