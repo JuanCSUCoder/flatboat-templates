@@ -1,6 +1,6 @@
 {
     "id": "roboten_ws_iron_nogpu",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "name": "ROS2 Iron Irwini Devcontainer Workspace Template",
     "description": "A template to code robots using ROS2 Iron Irwini Distribution",
     "documentationUrl": "https://github.com/JuanCSUCoder/RobotEn/tree/main/src/iron_nogpu",
