@@ -1,6 +1,6 @@
 # FlatBoat Templates
 
-## Estructura de Carpetas
+## Folder Structure
 
 ```bash
 ├──  container-based
@@ -10,4 +10,10 @@
 ├──  LICENSE
 ├──  README.md
 └──  workloads
+```
+
+## Naming Convention
+
+```syntax
+<registry-domain>/<namespace>/roboten_<ws|pkg|bot|wl>_<distro>
 ```
