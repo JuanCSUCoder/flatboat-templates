@@ -1,0 +1,4 @@
+name = "humble_nogpu"
+
+[artifacts]
+workspace = "roboten_ws_humble_nogpu"
