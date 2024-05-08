@@ -1,11 +1,11 @@
 {
     "id": "humble_nogpu",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "name": "ROS2 Humble Devcontainer Workspace Template",
     "description": "A template to code robots using ROS2 Humble Distribution",
-    "documentationUrl": "https://github.com/JuanCSUCoder/ros-devcontainers/tree/main/src/humble_nogpu",
+    "documentationUrl": "https://juancsucoder.github.io/flatboat-docs/",
     "publisher": "Juan Camilo Sánchez Urrego",
-    "licenseURL": "https://github.com/JuanCSUCoder/ros-devcontainers/blob/main/LICENSE",
+    "licenseURL": "https://github.com/JuanCSUCoder/flatboat-templates/blob/main/LICENSE",
     "options": [],
     "platforms": [
         "Any"
