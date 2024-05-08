@@ -26,7 +26,10 @@ RUN apt-get update && apt-get install -y ros-$ROS_DISTRO-moveit
 RUN apt-get update && apt-get install -y python3-colcon-common-extensions python3-colcon-mixin
 
 # Install Gazebo
-RUN apt-get update && apt-get install -y ros-$ROS_DISTRO-ros-gz
+RUN sudo wget https://packages.osrfoundation.org/gazebo.gpg -O /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg
+RUN echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/pkgs-osrf-archive-keyring.gpg] http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/gazebo-stable.list > /dev/null
+RUN sudo apt-get update && sudo apt-get install ignition-fortress
+
 
 # Setup CycloneDDS
 RUN apt-get update && apt-get install -y ros-$ROS_DISTRO-rmw-cyclonedds-cpp

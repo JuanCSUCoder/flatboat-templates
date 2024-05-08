@@ -1,0 +1,7 @@
+name = "humble_nogpu"
+
+[artifacts]
+workspace = "JuanCSUCoder/flatboat-templates/roboten_ws_humble_nogpu"
+package = "JuanCSUCoder/flatboat-templates/pkg/humble/humble_nogpu"
+workload = "JuanCSUCoder/flatboat-templates/wl/humble/humble_nogpu"
+bot = "JuanCSUCoder/flatboat-templates/bot/humble/humble_nogpu"
