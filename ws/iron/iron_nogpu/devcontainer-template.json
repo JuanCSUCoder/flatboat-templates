@@ -1,11 +1,11 @@
 {
-    "id": "iron_nogpu",
-    "version": "1.0.0",
+    "id": "roboten_ws_iron_nogpu",
+    "version": "2.0.1",
     "name": "ROS2 Iron Irwini Devcontainer Workspace Template",
     "description": "A template to code robots using ROS2 Iron Irwini Distribution",
     "documentationUrl": "https://github.com/JuanCSUCoder/RobotEn/tree/main/src/iron_nogpu",
-    "publisher": "Juan Camilo Sánchez Urrego",
-    "licenseURL": "https://github.com/JuanCSUCoder/RobotEn/blob/main/LICENSE",
+    "publisher": "Juan Camilo Sánchez Urrego @JuanCSUCoder <jcsu2019369@gmail.com>",
+    "licenseURL": "https://github.com/JuanCSUCoder/flatboat-templates/blob/main/LICENSE",
     "options": [],
     "platforms": [
         "Any"
