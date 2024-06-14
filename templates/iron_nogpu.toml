@@ -1,4 +1,4 @@
-name = "humble_nogpu"
+name = "iron_nogpu"
 version = "0.0.1"
 
 [artifacts]
