@@ -1,11 +1,11 @@
 {
-    "id": "noetic",
-    "version": "0.2.1",
+    "id": "robot_ws_noetic_nogpu",
+    "version": "1.0.0",
     "name": "ROS Noetic Devcontainer Workspace Template",
     "description": "A template to code robots using ROS Noetic Distribution",
-    "documentationUrl": "https://github.com/JuanCSUCoder/ros-devcontainers/tree/main/src/noetic",
+    "documentationUrl": "https://juancsucoder.github.io/flatboat-docs/",
     "publisher": "Juan Camilo Sánchez Urrego",
-    "licenseURL": "https://github.com/JuanCSUCoder/ros-devcontainers/blob/main/LICENSE",
+    "licenseURL": "https://github.com/JuanCSUCoder/FlatBoatProject/blob/main/LICENSE",
     "options": [],
     "platforms": [
         "Any"
