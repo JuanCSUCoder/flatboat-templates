@@ -14,4 +14,8 @@ devcontainer templates publish -r ghcr.io -n juancsucoder/flatboat-templates ./w
 # Before running is required to run `oras login ghcr.io` with GitHub user and classic token as password
 
 # Publish Package Templates
-oras push ghcr.io/juancsucoder/flatboat-templates/robot_pkg_humble_nogpu:latest --artifact-type application/coder.juancsu.flatboat.pkg ./pkg/humble/humble_nogpu/* 
+wsdir=$(pwd)
+
+cd ./pkg/humble/humble_nogpu/
+oras push ghcr.io/juancsucoder/flatboat-templates/robot_pkg_humble_nogpu:latest --artifact-type application/coder.juancsu.flatboat.pkg * 
+cd "$wsdir"
