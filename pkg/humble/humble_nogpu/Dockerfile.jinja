@@ -33,7 +33,7 @@ RUN apt-get update && apt-get install {{ sysdep }}
 # TODO: Install the runtime dependencies
 
 {% if launch_file %}
-CMD [ "ros2", "launch", "{{ launch_file }}", {{ extra_args }} ]
+CMD [ "ros2", "launch", "{{ package_name }}", "{{ launch_file }}", {{ extra_args }} ]
 {% elif command %}
 CMD [ "ros2", "run", "{{ package_name }}", "{{ command_file }}", {{ extra_args }} ]
 {% else %}
