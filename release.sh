@@ -15,7 +15,7 @@ devcontainer templates publish -r ghcr.io -n juancsucoder/flatboat-templates ./w
 
 # Publish Package Templates
 wsdir=$(pwd)
-version="1.1.0"
+version="1.1.1"
 
 cd ./pkg/humble/humble_nogpu/
 oras push ghcr.io/juancsucoder/flatboat-templates/robot_pkg_humble_nogpu:latest --artifact-type application/coder.juancsu.flatboat.pkg *
