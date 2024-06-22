@@ -1,8 +1,8 @@
 name = "humble_nogpu"
-version = "0.0.1"
+version = "0.1.0"
 
 [artifacts]
 workspace = "ghcr.io/JuanCSUCoder/flatboat-templates/robot_ws_humble_nogpu"
-package = "https://juancsucoder.github.io/flatboat-docs#NotImplemented"
+package = "ghcr.io/juancsucoder/flatboat-templates/robot_pkg_humble_nogpu:1.1.1"
 workload = "https://juancsucoder.github.io/flatboat-docs#NotImplemented"
 bot = "https://juancsucoder.github.io/flatboat-docs#NotImplemented"
