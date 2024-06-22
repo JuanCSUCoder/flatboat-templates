@@ -19,3 +19,5 @@ wsdir=$(pwd)
 cd ./pkg/humble/humble_nogpu/
 oras push ghcr.io/juancsucoder/flatboat-templates/robot_pkg_humble_nogpu:latest --artifact-type application/coder.juancsu.flatboat.pkg * 
 cd "$wsdir"
+
+# Pull command: `oras pull ghcr.io/juancsucoder/flatboat-templates/robot_pkg_humble_nogpu:latest`
