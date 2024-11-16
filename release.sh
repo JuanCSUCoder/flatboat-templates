@@ -4,7 +4,8 @@
 source env.sh
 
 # env.sh should contain (classic token):
-# export GITHUB_TOKEN="ghp_token..."
+# export GITHUB_TOKEN=ghp_token...
+# export GITHUB_USR=GHUsername
 
 # Publish Devcontainer Templates
 devcontainer templates publish -r ghcr.io -n juancsucoder/flatboat-templates ./ws/iron/iron_nogpu
@@ -16,6 +17,9 @@ devcontainer templates publish -r ghcr.io -n juancsucoder/flatboat-templates ./w
 # Publish Package Templates
 wsdir=$(pwd)
 version="1.1.2"
+
+# Oras Login
+oras login ghcr.io -u $GITHUB_USR -p $GITHUB_TOKEN
 
 cd ./pkg/humble/humble_nogpu/
 oras push ghcr.io/juancsucoder/flatboat-templates/robot_pkg_humble_nogpu:latest --artifact-type application/coder.juancsu.flatboat.pkg *
