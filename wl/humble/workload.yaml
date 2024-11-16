@@ -1,0 +1,36 @@
+apiVersion: coder.juancsu.flatboat/v0.4.0
+kind: FlatboatWorkload
+metadata:
+  name: example-workload
+spec:
+  launchs:
+    - name: example_launch.py
+      args:
+        - --rate
+        - from-config:
+            name: example-launch-config
+            key: rate
+        - -p
+        - from-secret:
+            name: example-launch-secret
+            key: password
+        - --robot
+        - flatboat-selector: robot
+        - --node
+        - flatboat-selector: rosnode
+  execs:
+    - name: example_cmd
+      args:
+        - --rate
+        - from-config:
+            name: example-launch-config
+            key: rate
+        - -p
+        - from-secret:
+            name: example-launch-secret
+            key: password
+        - --robot
+        - flatboat-selector: robot
+        - --node
+        - flatboat-selector: rosnode
+  runs-on: robot # or 'any' or 'cpu' or 'gpu'
