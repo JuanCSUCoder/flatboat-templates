@@ -16,7 +16,7 @@ devcontainer templates publish -r ghcr.io -n juancsucoder/flatboat-templates ./w
 
 # Publish Package Templates
 wsdir=$(pwd)
-version="1.2.0"
+version="1.2.1"
 
 # Oras Login
 oras login ghcr.io -u $GITHUB_USR -p $GITHUB_TOKEN
