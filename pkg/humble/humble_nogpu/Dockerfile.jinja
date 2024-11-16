@@ -37,7 +37,7 @@ RUN apt-get update && apt-get install -y {{ sysdep }}
 
 {% if launch_file %}
 CMD [ "ros2", "launch", "{{ package_name }}", "{{ launch_file }}"{% if extra_args %}, {{ extra_args }} {% endif %}]
-{% elif command %}
+{% elif command_file %}
 CMD [ "ros2", "run", "{{ package_name }}", "{{ command_file }}"{% if extra_args %}, {{ extra_args }} {% endif %}]
 {% else %}
 CMD [ "echo", "No execution option provided, container will not run!!" ]
