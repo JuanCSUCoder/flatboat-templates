@@ -21,7 +21,7 @@ ARG OVERLAY_WS
 WORKDIR $OVERLAY_WS
 
 # Copy compiled package
-COPY --from=ros_build ./install ./install
+COPY --from=ros_build ${OVERLAY_WS}/install ./install
 
 # Source setup on entrypoint
 ENV OVERLAY_WS $OVERLAY_WS
