@@ -23,3 +23,10 @@ oras push ghcr.io/juancsucoder/flatboat-templates/robot_pkg_humble_nogpu:$versio
 cd "$wsdir"
 
 # Pull command: `oras pull ghcr.io/juancsucoder/flatboat-templates/robot_pkg_humble_nogpu:latest`
+
+# Publish Workload Templates
+
+cd ./wl/humble/
+oras push ghcr.io/juancsucoder/flatboat-templates/robot_wl_humble:latest --artifact-type application/coder.juancsu.flatboat.wl *
+oras push ghcr.io/juancsucoder/flatboat-templates/robot_wl_humble:$version --artifact-type application/coder.juancsu.flatboat.wl *
+cd $wsdir
