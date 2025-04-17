@@ -1,7 +1,7 @@
 
-# ROS2 Humble Devcontainer Workspace Template (humble_nogpu)
+# ROS2 Jazzy Devcontainer Workspace Template (jazzy_nogpu)
 
-A template to code robots using ROS2 Humble Distribution
+A template to code robots using ROS2 Jazzy Distribution
 
 ## Options
 
