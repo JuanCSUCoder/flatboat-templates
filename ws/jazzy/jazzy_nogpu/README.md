@@ -9,5 +9,3 @@ A template to code robots using ROS2 Jazzy Distribution
 |-----|-----|-----|-----|
 
 ---
-
-_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/JuanCSUCoder/RobotEn/blob/main/src/humble_nogpu/devcontainer-template.json).  Add additional notes to a `NOTES.md`._

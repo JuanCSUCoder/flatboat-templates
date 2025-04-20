@@ -1,9 +1,9 @@
 {
-    "id": "humble_amd",
+    "id": "jazzy_amd",
     "version": "1.0.0",
-    "name": "ROS2 Humble Devcontainer Workspace Template with AMD Graphics",
-    "description": "A template to code robots using ROS2 Humble Distribution",
-    "documentationUrl": "https://github.com/JuanCSUCoder/ros-devcontainers/tree/main/src/humble_amd",
+    "name": "ROS2 Jazzy Devcontainer Workspace Template with AMD Graphics",
+    "description": "A template to code robots using ROS2 Jazzy Distribution",
+    "documentationUrl": "https://github.com/JuanCSUCoder/ros-devcontainers/tree/main/src/jazzy_amd",
     "publisher": "Juan Camilo Sánchez Urrego",
     "licenseURL": "https://github.com/JuanCSUCoder/ros-devcontainers/blob/main/LICENSE",
     "options": [],

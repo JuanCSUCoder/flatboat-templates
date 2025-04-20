@@ -1,7 +1,7 @@
 
-# ROS2 Humble Devcontainer Workspace Template with Nvidia Graphics (humble_nvidia)
+# ROS2 Jazzy Devcontainer Workspace Template with Nvidia Graphics (jazzy_nvidia)
 
-A template to code robots using ROS2 Humble Distribution
+A template to code robots using ROS2 Jazzy Distribution
 
 ## Options
 
@@ -13,4 +13,3 @@ A template to code robots using ROS2 Humble Distribution
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/JuanCSUCoder/RobotEn/blob/main/src/humble_nvidia/devcontainer-template.json).  Add additional notes to a `NOTES.md`._
