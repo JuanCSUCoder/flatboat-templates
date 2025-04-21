@@ -1,0 +1,6 @@
+package_name = "example_package"
+
+system_dependencies = []
+launch_file = "move_launch.py"
+# command_file = "move_run.py"
+# extra_args = '"--left", "30"'

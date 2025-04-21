@@ -1,0 +1,13 @@
+{
+    "id": "robot_ws_jazzy_nogpu",
+    "version": "1.3.0",
+    "name": "ROS2 Jazzy Devcontainer Workspace Template",
+    "description": "A template to code robots using ROS2 Jazzy Distribution",
+    "documentationUrl": "https://juancsucoder.github.io/flatboat-docs/",
+    "publisher": "Juan Camilo Sánchez Urrego",
+    "licenseURL": "https://github.com/JuanCSUCoder/flatboat-templates/blob/main/LICENSE",
+    "options": [],
+    "platforms": [
+        "Any"
+    ]
+}
