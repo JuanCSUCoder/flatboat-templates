@@ -1,5 +1,5 @@
 {
-    "id": "jazzy_amd",
+    "id": "robot_ws_jazzy_amd",
     "version": "1.0.0",
     "name": "ROS2 Jazzy Devcontainer Workspace Template with AMD Graphics",
     "description": "A template to code robots using ROS2 Jazzy Distribution",
