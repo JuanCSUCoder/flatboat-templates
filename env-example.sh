@@ -1,0 +1,2 @@
+export GITHUB_TOKEN=ghp_token
+export GITHUB_USR=Username
