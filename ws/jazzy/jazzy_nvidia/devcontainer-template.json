@@ -1,6 +1,6 @@
 {
     "id": "robot_ws_jazzy_nvidia",
-    "version": "1.0.0",
+    "version": "1.3.0",
     "name": "ROS2 Jazzy Devcontainer Workspace Template with Nvidia Graphics",
     "description": "A template to code robots using ROS2 Jazzy Distribution",
     "documentationUrl": "https://github.com/JuanCSUCoder/ros-devcontainers/tree/main/src/jazzy_nvidia",
