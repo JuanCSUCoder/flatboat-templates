@@ -1,0 +1,14 @@
+{
+  "base_image": "osrf/ros:jazzy-desktop-full",
+
+  "x11": true,
+
+  "nvidia": true,
+  "cuda": true,
+
+  "git": true,
+  "user": true,
+  "network": "host",
+  "privileged": true,
+  "pulse": true
+}

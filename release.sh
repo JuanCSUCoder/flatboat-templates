@@ -22,6 +22,7 @@ devcontainer templates publish -r ghcr.io -n juancsucoder/flatboat-templates ./w
 devcontainer templates publish -r ghcr.io -n juancsucoder/flatboat-templates ./ws/jazzy/jazzy_nogpu
 devcontainer templates publish -r ghcr.io -n juancsucoder/flatboat-templates ./ws/jazzy/jazzy_amd
 devcontainer templates publish -r ghcr.io -n juancsucoder/flatboat-templates ./ws/jazzy/jazzy_nvidia
+devcontainer templates publish -r ghcr.io -n juancsucoder/flatboat-templates ./ws/jazzy/jazzy_ng
 
 # Before running is required to run `oras login ghcr.io` with GitHub user and classic token as password
 
