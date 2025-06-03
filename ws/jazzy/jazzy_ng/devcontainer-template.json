@@ -1,6 +1,6 @@
 {
     "id": "robot_ws_jazzy_ng",
-    "version": "2.0.2",
+    "version": "2.0.3",
     "name": "New Generation ROS2 Jazzy Devcontainer Workspace Template",
     "description": "A template to code robots using ROS2 Jazzy Distribution",
     "documentationUrl": "https://juancsucoder.github.io/flatboat-docs/",
