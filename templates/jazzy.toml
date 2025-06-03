@@ -1,8 +1,8 @@
 name = "jazzy"
-version = "2.0.2"
+version = "2.0.3"
 
 [artifacts]
-workspace = "ghcr.io/JuanCSUCoder/flatboat-templates/robot_ws_jazzy_ng:2.0.2"
+workspace = "ghcr.io/JuanCSUCoder/flatboat-templates/robot_ws_jazzy_ng:2.0.3"
 package = "ghcr.io/juancsucoder/flatboat-templates/robot_pkg_jazzy_nogpu:1.3.0"
 workload = "ghcr.io/juancsucoder/flatboat-templates/robot_wl_jazzy:1.3.0"
 bot = "https://juancsucoder.github.io/flatboat-docs#NotImplemented"

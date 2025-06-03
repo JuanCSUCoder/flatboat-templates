@@ -10,5 +10,6 @@
   "user": true,
   "network": "host",
   "privileged": true,
-  "pulse": true
+  "pulse": true,
+  "nocleanup": true
 }
