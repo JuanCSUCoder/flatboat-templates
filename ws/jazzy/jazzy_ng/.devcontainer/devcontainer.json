@@ -1,6 +1,5 @@
 {
     "name": "ROS 2 Development Container",
-    // COMMENT privileged for Podman
     "privileged": true,
     "remoteUser": "rosuser",
     "build": {
