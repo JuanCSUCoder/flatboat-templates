@@ -1,37 +1,15 @@
-apiVersion: coder.juancsu.flatboat/v0.5.0
+apiVersion: coder.juancsu.flatboat/v0.6.0
 kind: FlatboatWorkload
 metadata:
   name: example-workload
 spec:
   image: username/my_ros_pkg:latest
-  launchs:
-    - name: example_launch.py
-      args:
-        - --rate
-        - from-config:
-            name: example-launch-config
-            key: rate
-        - -p
-        - from-secret:
-            name: example-launch-secret
-            key: password
-        - --robot
-        - flatboat-selector: robot
-        - --node
-        - flatboat-selector: rosnode
-  execs:
-    - name: example_cmd
-      args:
-        - --rate
-        - from-config:
-            name: example-launch-config
-            key: rate
-        - -p
-        - from-secret:
-            name: example-launch-secret
-            key: password
-        - --robot
-        - flatboat-selector: robot
-        - --node
-        - flatboat-selector: rosnode
+  launch_executable: example_launch.py
+  args:
+    - --rate
+    - 50
+    - -p
+    - 3300
+    - --robot
+    - industrialarm
   runs-on: robot # or 'any' or 'cpu' or 'gpu'
